@@ -1,0 +1,56 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  row-gap: 20px;
+  height: 100vh;
+  background-color: rgb(62, 62, 62);
+}
+
+#date-input {
+  font-size: 15px;
+  color: rgb(240, 240, 240);
+  border-style: solid;
+  background-color: rgb(126, 126, 126);
+  padding: 15px;
+  border-radius: 10px;
+  border-color: rgb(88, 88, 88);
+  border-width: 2.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#date-input:focus {
+  outline: none;
+  border-color: aliceblue;
+}
+
+.span-class {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.span-yes {
+  color: rgb(88, 88, 88);
+  font-size: 15px;
+  position: relative;
+  font-family: "Audiowide", sans-serif;
+  top: 20px;
+  right: 232px;
+  background-color: transparent;
+}
+.span-no {
+  color: hsla(0, 0%, 100%, 0);
+  font-size: 15px;
+  position: relative;
+  font-family: "Audiowide", sans-serif;
+  top: 20px;
+  right: 232px;
+  background-color: transparent;
+}
+.date-input:focus::placeholder {
+  color: transparent;
+}
